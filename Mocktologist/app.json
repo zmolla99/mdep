@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Mocktologist",
+    "slug": "Mocktologist",
+    "description": "Mocktologist is the ultimate companion app to get creative with making new mocktails. Our virtual bartender will generate a mocktail based on your preferences, and you can follow along with the recipe given, take a pic of your creation and log it. Best served cold, at parties, or just to get creative!",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ]
+  }
+}
